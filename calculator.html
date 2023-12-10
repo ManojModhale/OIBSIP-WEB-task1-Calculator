@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator_style.css">
+	<script type="text/javascript" src="calculator_script.js"></script>
+</head>
+<body>
+	<span id="headline">Calculator</span>
+	<div id="Calculator_body">
+		<input type="text" id="output_screen">
+		<br>
+    	<button class="operators" onclick="Solve('(')">(</button>
+    	<button class="operators" onclick="Solve(')')">)</button>
+    	<button onclick ="Back('←')">Back</button>
+    	<button onclick = "Clear()">Clear</button>
+		<br>
+		<button class="digits" onclick="Solve('7')">7</button>
+    	<button class="digits" onclick="Solve('8')">8</button>
+    	<button class="digits" onclick="Solve('9')">9</button>
+    	<button class="operators" onclick="Solve('/')">/</button>
+    	<br>
+    	<button class="digits" onclick="Solve('4')">4</button>
+    	<button class="digits" onclick="Solve('6')">6</button>
+    	<button class="digits" onclick="Solve('5')">5</button>
+    	<button class="operators" onclick="Solve('*')">X</button>
+    	<br>
+    	<button class="digits" onclick="Solve('1')">1</button>
+    	<button class="digits" onclick="Solve('2')">2</button>
+    	<button class="digits" onclick="Solve('3')">3</button>
+    	<button class="operators" onclick="Solve('-')">-</button>
+    	<br>
+    	<button class="operators" onclick="Solve('.')">.</button>
+    	<button class="digits" onclick="Solve('0')">0</button>
+    	<button class="operators" onclick="Solve('+')">+</button>
+    	<button onclick = "Result()">ENTER</button>
+    	<br>
+	</div>
+</body>
+</html>
