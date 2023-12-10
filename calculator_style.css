@@ -1,0 +1,94 @@
+body
+{
+	background-color: 	#a71df5;
+}
+#headline
+{
+	position: absolute;
+	left: 630px;
+	color: floralwhite;
+	font-size: 60px;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#Calculator_body
+{
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	border: 5px solid white;
+	border-radius: 25px;
+	background-color: #b3b4b3;
+	width: 500px;
+	height: 420px;
+	padding: 18px;
+}
+input[type='text']
+{
+	width: 465px;
+	height: 65px;
+	background-color: white;
+	border: 4px solid #353635;
+	border-radius: 16px;
+	margin: 10px;
+	position: relative;
+	top: 5px;
+	font-size: 40px;
+	color: black;
+	text-align: right;
+	padding: 3px;
+}
+button
+{
+	background-color: #4974a5;
+    border: 4px solid #4974a5;
+	border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+}
+button:hover
+{
+   background-color: #7F9DC0;
+   color: white;
+}
+.operators 
+{
+ 	background-color: #90d7fa;
+    border: 4px solid #90d7fa;
+	border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+.operators:hover
+{
+   background-color: #7F9DC0;
+   color: white;
+}
+.digits
+{
+	background-color: #c8ebfd;
+    border: 4px solid #c8ebfd;
+	border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+.digits:hover
+{
+   background-color: #90d7fa;
+   color: white;
+}
